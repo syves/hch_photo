@@ -10,7 +10,6 @@ body {
    color:black;
  }
 h2 {
-  position:relative;
   width:140px;
   height:40px;
   position: absolute;
@@ -20,41 +19,39 @@ h2 {
 
   /*drop shadow*/
 }
-p{margin:0;}
+p {
+  margin: 0;
+}
  
- #initials{
-   margin:0;padding:0;
+#initials {
+   margin: 0;
+   padding:0;
  }
-  .brand-words {
+.brand-words {
   position: absolute;
   font-size: 4vw;
-  width:;
-  height:;
   color: white;
-  padding: 0px 20px;
+  padding: 0 20px;
   text-transform:uppercase;
 }
-#first{
-  position:absolute;
-  margin:;
+#first {
+  position: absolute;
 }
- #last{
-  position:absolute;
-  padding:;
-;
+#last {
+  position: absolute;
 }
- #foto{
- position:absolute;
+#foto{
+  position: absolute;
 }
 
- .brand {
-  padding: 0px 0px;
+.brand {
+  padding: 0;
   color: #d8d8d8;
   width:100%;
   height:80%;
   font-size: 45vw;
   /*  background: white;*/
-  margin: 0 0;
+  margin: 0;
   border: solid 4px #d8d8d8;
  }
  
@@ -63,23 +60,22 @@ p{margin:0;}
    text:inline;
  }*/
 a {
-/*link style color, no underlinei*/
   color:#4d5754;
   text-decoration:none; 
 }
-#products{
+#products {
  /*background image*/ 
   margin:80px 80px;
   padding: 10px;
   background-color:white;
 }
-#interiors{
+#interiors {
  margin:80px 560px;
   padding: 10px;
   background-color: white;
 }
 
-#contacts{
+#contacts {
   margin:10px 10px;
   padding: 10px;
   text-transform: italic;
@@ -87,59 +83,28 @@ a {
 }
 
 #large-image{
-  float:center;
+  float:left;
   width: 300px;
   height: 500px;
   border: 2px solid red;
-  margin:0px 0px 0px 230px;
+  margin:0px 0px 0px 30px;
 }
 
-.thumbnails{
-  float:left;
-   width:200px;
-   height:500px;
-   margin: 10px;
-   border: 5px solid black;
-  }
+#product-thumbs {
+  padding: 0;
+  width:240px;
+  float: left;
+}
 
- #SammyOliver{
-    /*background: url("./images/140806_SammyOliver_3449.jpg");*/
-    width: 100px;
-    height: 100px;
-  }
-  #DryanskyMotion{
-    background-image: url("/imgages/140820_Dryansky_3641_motion.jpg");
-  }
-  #DryanskyExteriorEve{
-    background-image: url("/images/140830_DryanskyExteriorEve_4924.jp")g;
-  }
-  #25JenniferPlace{
-    background-image: url("/images/ 25JenniferPlace-4899.jpg");
-  }
-  #46thFloor{
-    background-image: url("/images/46thFloor-1224.jpg");
-  }
-  #BarAdagio{
-    background-image: url("/images/BarAdagio-210hp.jpg");
-  }
-  #Caruso {
-   background-image: url("/images/Caruso-3241bhp.jpg");
-  }
-  #Cioppinos{
-    background-image: url("/images/ Cioppinos_ext-7133.jpg");
-  }
-  #Cioppinos{
-    background-image: url("/images/Cioppinos_int-7173.jpg;");
-  }
-  #Covers{
-    background-image: url("/images/Covers_SF110526-9424.jpg");
-  }
-  #Lobby_lamp{
-    background-image: url("/images/Lobby_lamps-5458hp.jpg");
-  }
-  #Siena{
-    background-image: url("/images/Siena-101hp.jpg");
-  }
-  #Terrace{
-    background-image: url("/images/Terrace-132hp.jpg");
-  }
+#product-thumbs li {
+  display: block;
+  width: 80px;
+  height: 80px;
+  float:left;
+}
+
+#product-thumbs img {
+  width: 80px;
+  height: 80px;
+  display: block;
+}
